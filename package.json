@@ -1,37 +1,41 @@
 {
-  "name": "vue-hello-world",
-  "version": "0.0.1",
-  "description": "Basic Vue component module",
+  "name": "vue-scandit",
+  "version": "0.0.2",
+  "description": "Vue component for the Scandit Web SDK",
   "author": {
     "name": "Mike Rodrigues",
     "email": "rodrigues.mi@husky.neu.edu"
   },
-  "main": "dist/packaged.min.js",
+  "main": "dist/vue-scandit.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrodrig/vue-plugin-scaffold.git"
+    "url": "git+https://github.com/mrodrig/vue-scandit.git"
   },
   "bugs": {
-    "url": "https://github.com/mrodrig/vue-plugin-scaffold/issues"
+    "url": "https://github.com/mrodrig/vue-scandit/issues"
   },
   "keywords": [
-    "component",
+    "scandit",
     "vue",
     "vue.js"
   ],
   "scripts": {
-    "dev": "./node_modules/.bin/vue serve src/hello-world.vue",
+    "dev": "./node_modules/.bin/vue serve src/v-scandit.vue",
     "build": "./node_modules/.bin/webpack --hide-modules -p --progress"
   },
   "files": [
     "dist/*"
   ],
-  "homepage": "https://github.com/mrodrig/vue-plugin-scaffold",
-  "license": "MIT",
-  "dependencies": {},
+  "homepage": "https://github.com/mrodrig/vue-scandit",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "scandit-sdk": "5.1.4"
+  },
   "devDependencies": {
     "@babel/core": "7.7.5",
     "@babel/preset-env": "7.7.5",
+    "@vue/cli": "4.5.4",
+    "@vue/cli-service-global": "4.5.4",
     "babel-loader": "8.0.6",
     "babel-plugin-lodash": "3.3.4",
     "clean-webpack-plugin": "3.0.0",
