@@ -22,7 +22,9 @@ Vue.use(VScandit);
 ```html
 <v-scandit license-key="AQz..." 
            :configuration-options="{ engineLocation: 'https://cdn.jsdelivr.net/npm/scandit-sdk@5.x/build/' }"
-           :scan-settings="{ enabledSymbologies: ['ean8', 'ean13', 'upca', 'upce'] }" />
+           :scan-settings="{ enabledSymbologies: ['ean8', 'ean13', 'upca', 'upce'] }"
+           v-on:barcodePicker="(barcodePicker) => { console.log(barcodePicker); }"
+           v-on:scan="(barcode) => { console.log(barcode); }" />
 ```
 
 ### Options:
@@ -68,6 +70,20 @@ Additional options and documentation for this method and the available `ScanSett
 
 [ScanditSDK.BarcodePicker.create() Documentation](https://docs.scandit.com/stable/web/classes/barcodepicker.html#create)
 [ScanditSDK.ScanSettings() Documentation](https://docs.scandit.com/stable/web/classes/scansettings.html)
+
+#### Barcode Picker Event
+
+`v-on:barcodePicker="onBarcodePicker"`
+
+This event is emitted when an instance of `ScanditSDK.BarcodePicker` has been instantiated and returned during the initialization process.
+This provides a hook into the workflow of the barcode scanner so that customizations may be made.
+
+#### Scan Event
+
+`v-on:scan="onScan"`
+
+This event is emitted when a barcode is scanned by the `ScanditSDK`.
+The barcode will be provided as a `String` argument to the function that is provided. 
 
 ## Contributing
 ```
