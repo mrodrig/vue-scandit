@@ -1,15 +1,11 @@
-import VScandit from './v-scandit.vue';
+import component from './v-scandit.vue'
 
 const plugin = {
   install: Vue => {
-    Vue.component('VScandit', VScandit);
+    Vue.component(component.name, component)
   }
 };
 
 component.install = plugin.install;
 
-export default plugin
-
-export {
-  VScandit
-}
+export default component;

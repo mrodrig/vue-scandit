@@ -1,6 +1,6 @@
 {
   "name": "vue-scandit",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Vue component for the Scandit Web SDK",
   "author": {
     "name": "Mike Rodrigues",
