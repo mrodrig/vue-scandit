@@ -13,7 +13,7 @@ import * as ScanditSDK from 'scandit-sdk';
             licenseKey: {
                 type: String,
                 // Web demo default license key - allow module to be evaluated the same way as the Web SDK demo on Scandit's site allows the library to be tested
-                default: 'AQZOrRteBEkNL00Y2BzlDawGLF+INUj7V0OVEW4Lmj5oYTPF+kjyUjA3teTSf6JkdBp2jJxHosY9bJjU5kAHEgJ2TgfxJmP/3XKgn7ZIoW+laxrLzHsC4E1DGE9uePRx/Webii0FzQgYJij0agLqr+6v54OnkD6bUPbyAtVXf86RJHNkMlMkZDXyrOkAkbFz+6s7xAKEaXdsFOxxtB2I94VvbEtg/Y5DjumsqwuGs+uQEYgo40I28fAY04uegvVzhPJxy2Uajgod5qcda4Ou3zLkisEBZd8kFmGk2XWWfFR5eViTjiAxncRNmvrYABiF6jA78BVH70/H/Ca3JX3s7E/Y8VdyE+QUW4t5TVmPQA9Dl6WGYQmxWEB0TrRJ+upZBYQhkHBNDEnazyZpIRc4MjnSLmjh8E9fMOelewwDVh39mdo09asD/l7SJH8w1OQmPZ6df6QjvI8nZ8O2xdQNKZW6UrKAYF4lhTOohddaggikYQ5pxUp8WH+87fDiDo7VcRcBXPiGwCoRGvmc7GAibybhz0mJ50mX5h+5rqLNONo5iHCD8HGTv9FOIgaScV8/TkeX1rB49Kcbkp/8D5dQV0QiiqxCF1dNGKMmd75RKFjBnOyGvOo0QN3pALJ5L1Ug68vfVsLqa7OWPypnvNhRYrmWvdDPKoMoJqhpN5UJPX2M/Q1bgZlwxZeSGHlDFphJNXOoMDhH6uNFjbgwzLNfe0p8bXBmYUrsz0b9NsVIv2WqnSWE5/cf9+DmCbEMLo1lb8pvzFC6ZU31YME67X5To+BcdtE330WE+C6JFUAH9yv9s8YfYRMQwBNC9vvfx5A=',
+                default: 'AQjvfCXeBTtdD+3eawdysDo9qrUDIyNkkWjjT+tVf8tcczdAeg+yq8ZpY6MzS9P6KHqLfo9Y94+Yac9RNjZTEGhVTiYBPPNMWnknxc5giYVBA35sAj4MSrpu79sRV/u7ZlywMY47XpGfDf8u7SedkegM2y5MHgHAUN4XVXsoDKpyI48Qz8PI/j4JDURNsI8Q9/JasL34Bmvv4veuI+lB3mLyxj0Evgpxu/EKCzzjCOQkHLWXpWYtjdiSGv8TTvyNba7C7yBigjdAzc0FuQsqWeenJFoPLvRHUReHuaCeVlo5HinNPTJfIlsNtC/dSQJMX2rKJ0tLfL9NShEEhhjS3l6zp2utSpVKgApS0PICvnA5+gmaQjn8q940GAXYHbxSJAswT7xywDoLZeTWzm3xmyQu+wRe247CL1XpTtTzydhUPuIdvr4cjNAp6Y5rJUPX31TJ5V1UmZC/24tT+GJs8ini53ALzDlTfF06hEKLnoEmNI/YEqCzWMNmZsUnMNDJW3LOkIHtQ9EB7bqIJeLppO7MCzyHLA4V2Xrb7mBRueFTykRJHxT14nxE8oN8mZDgdQTZa4ORZFMNygrfmEhWFeKQ4OYvzaOLP1A009v3+eObZHlwMSn1LAW5xajuzWN/Uz8HbZmNsX8xponJYEqwDsLFXMd9Oe2I5h71WR6Tl9l99WtHAXIDPpOy2RtYcJEP9ERHEg5FpmbOfHuIWgDcd/Hz2uDX0pJC/2C3d6ItKAEFKQVOt7wrAPjvmDDqKPksPGBN29r6RVf8RZCHqyaJxisA5t5lRW78oaIcHcwSZKBTBgQbjeg3OPnYBiMW6iNjnb4=',
                 required: false
             },
             configurationOptions: {
@@ -63,9 +63,5 @@ import * as ScanditSDK from 'scandit-sdk';
         data: () => ({
             barcodePicker: null,
         }),
-
-        methods: {
-
-        }
     }
 </script>
